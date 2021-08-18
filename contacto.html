@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+    <h1>Recetas de cocina</h1>
+    <ul>
+        <li>
+            <a href="./index.html" title="Pagina de inicio">Inicio</a>
+        </li>
+        <li>
+            <a href="./receta.html" title="Receta">Receta Lasagna</a>
+        </li>
+        <li>
+            <a href="./contacto.html" title="Contacto">Comparte tu receta</a>
+        </li>
+        <li>
+            <a href="https://www.recetasgratis.net" target="_blank" title="Recetas gratis">Mas Recetas</a>
+        </li>
+    </ul>
+    <hr />
+    <!-- CONTENIDO -->
+    <h2>Nos gustaria que nos compartieras tus recetas favoritas</h2>
+    <p>
+        Si te gusta cocinar, puedes enviarnos tus recetas favoritas y compartirlas con mucha gente.
+        Llena el siguiente formulario y envianos tus mejores recetas para compartirlas en nuestro blog
+        y asi poder tener un Recetario confiable y sobre todo lleno de mucho sabor.
+    </p>
+    <hr>
+    <h4>Envianos tu receta!!</h4>
+    <form>
+        <p>
+            <label for="nombre">Nombre Completo</label><br>
+            <input type="text" name="nombre" placeholder="Introduce tu nombre" />
+        </p>
+        <p>
+            <label for="genero">Genero</label><br>
+            <input type="radio" name="genero" value="Hombre" />Hombre
+            <input type="radio" name="genero" value="Mujer" />Mujer
+            <input type="radio" name="genero" value="Otro" />Otro
+        </p>
+        <p>
+            <label for="pais">Pais</label><br>
+            <select name="pais">
+                <option>Mexico</option>
+                <option>USA</option>
+                <option>España</option>
+                <option>Otro</option>
+            </select>
+        </p>
+        <p>
+            <label for="titulo">Nombre de la receta</label><br>
+            <input type="text" name="titulo" placeholder="Titulo de tu receta" />
+        </p>
+        <p>
+            <label for="ingredientes">Ingredientes</label><br>
+            <textarea name="ingedientes" placeholder="Coloca aqui los ingredientes"></textarea>
+        </p>
+        <p>
+            <label for="preparacion">Metodo de preparacion</label><br>
+            <textarea name="preparacoin" placeholder="Coloca aqui los pasos a seguir"></textarea>
+        </p>
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>
